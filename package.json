@@ -1,0 +1,24 @@
+{
+  "name": "html_example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "static-server": "^2.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "static-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/horodechnajulia/html_example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/horodechnajulia/html_example/issues"
+  },
+  "homepage": "https://github.com/horodechnajulia/html_example#readme"
+}
