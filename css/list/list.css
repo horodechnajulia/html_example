@@ -1,0 +1,7 @@
+ol{
+    list-style-type: square;      /* ol - це нумерований список . за замовчуванням список нумерований . disk - замість цифер вставляє чорні кружечки .square - квадратики / circle - кружечки з пустою серединкою / upper-alpha - (A B C D) / upper-roman - римські цифри */
+list-style-position: inside;   /* зсув списку */
+border: 2px solid #65ff00;
+/*list-style-image: url(images/Twitter_Cover-Blue.jpg);                замість цифр чи кружечків , як прописано зверху , можна перед списком вставити якусь картинку*/
+
+}

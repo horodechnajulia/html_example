@@ -1,0 +1,19 @@
+body{
+    background: #fffff1;
+    color: grey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+article{
+    max-width: 900px;
+    margin: 0 auto;
+    background: rgba(11, 48, 12, 0.2);
+}
+.test {
+    background: #fff;
+}
+
+
+
+p span{                                 /* aтрибут span дозволяє виділити якусь частину тексту з параграфу та задати їй якогось стилю*/
+    background: salmon;
+}

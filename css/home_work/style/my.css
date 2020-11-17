@@ -1,0 +1,15 @@
+#transform {
+    transform: scaleX(-1);
+}
+.colRed {
+    background: red;
+}   
+p {
+    background-color: blueviolet;
+}
+button {
+   background-color: darkorange;
+}
+.test {
+border-radius: 50%;
+}

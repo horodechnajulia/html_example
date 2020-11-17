@@ -1,0 +1,40 @@
+a:link {
+    background: chartreuse;
+    color: coral;
+}
+a:visited {
+    background: darkgray;
+    color: white;
+}
+a:hover {
+    background: tomato;
+    color: yellow;
+}
+a:active {
+    background: violet;
+    color: turquoise;
+}
+
+
+
+
+p::first-letter {
+    font-size: 30px;
+    color: red;
+}
+
+.test:first-line {
+font-style: italic;
+}
+
+h2:before {
+    content: "!!!";
+}
+h2:after {
+ content: "!!!";
+}
+
+::selection {
+    background: #000000 ;
+    color: whitesmoke;
+}

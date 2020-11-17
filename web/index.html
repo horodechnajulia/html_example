@@ -1,0 +1,44 @@
+
+<!--web форми це комунікація з клієнтом (залишити коментарій\відгук , загрузити файл) коли клієнт заповнює щось і ця інформація відправляється у базу даних-->
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<title> WEB форми </title>
+<meta charset="utf-8">
+</head>
+<body>
+
+<form action="/" method="">
+<input type="text" name="namePerson" maxlength="12" value="anna">
+<input type="text" name="firstName" maxlength="16" placeholder="ryna"> <br>
+
+<input type="password" name="Pass" maxlength="32"><br>               
+<input type="password" name="Pass" maxlength="32" disabled><br>     <!--якщо додати атрибут disable  то поле для введення паролю стає недоступним для користувача , але залишається видимим-->
+
+<label for="ap">яблуко</label> <input id="ap" type="checkbox" name="12" value="apple"> 
+<label for="sl">слива</label> <input id="sl" type="checkbox" name="12" value="sliva"> 
+<label for="in">інжир</label> <input id="in" type="checkbox" name="12" value="ingire"> 
+<label for="nt">нічого</label> <input id="nt" type="checkbox" name="12" value="nathin"> <br>
+
+хліб <input type="radio" name="11">
+булка <input type="radio" name="11">
+коржик <input type="radio" name="11"><br>
+
+<textarea name="text" cols="10" rows="3" placeholder="тут якийсь текст"> </textarea><br>                  <!-- поле для коментаря-->
+
+<select name="test2" size="3" multiple>                                                <!--список з якого користувач може щось вибрати / fатрибут селектед по замовчуванню вибирає якийсь варіант , користувач може його змінити-->
+    <option>1</option>                                                                  <!--атрибут multiple даємо можливість вибрати декілька позицій зі списку при зажатті кнопки  Shift-->
+    <option selected>2</option>
+    <option value="third">3</option>
+    <option>4</option>
+</select> <br>
+
+<input type="reset" name="res">
+<input type="submit" name="sub" value=" перша кнопка відправити"><br>         <!-- два способи створення кнопки відправити-->
+<button type="submit">друга кнопка відправити</button>
+
+</form>
+
+</body>
+</html>

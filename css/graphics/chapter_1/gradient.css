@@ -1,0 +1,15 @@
+body{
+    padding: 60px;
+/*    background-image: linear-gradient(45deg, black,white); дозволяє робити плавний перехід від одного кольору до іншого . першим значенням вказуємо сторону внапрямку до якої відбуватиметься перехід (to right) або можна задавати значення в градусах (120deg)*/
+}
+p.test1{
+    background-image: linear-gradient(yellow transparent),
+                      linear-gradient(120deg, green, transparent),
+                      linear-gradient(200deg, blue, transparent);
+}
+p.test2{
+    background-image: radial-gradient(circle, red, blue); /*радіальний градієнт . перший колір розташовується в центрі елемента і плавно колір переходить до другого по бокам*/
+}
+p.test3{
+    background-image: radial-gradient( red, blue); /*радіальний градієнт . перший колір розташовується в центрі елемента і плавно колір переходить до другого по бокам*/
+}

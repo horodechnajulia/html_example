@@ -1,0 +1,38 @@
+div{
+    float: left;   
+    border: 2px solid #007744;  
+    box-sizing: border-box;  
+}
+div.t1{
+    min-height: 60px;
+    width: 100%;
+    background: #ff6644;
+}
+div.t2{
+    min-height: 300px;
+    width: 70%;
+    background: #ff4499;
+}
+div.t3{
+    min-height: 300px;
+    width: 30%;
+    background: #27c551;
+}
+div.t4 ,.t5 ,.t6{
+    min-height: 400px;
+    width: 33.333333%;
+}
+div.t4{
+     background: #4ee0cf;   
+}
+div.t5{
+    background: #cfeb32;   
+}
+div.t6{
+    background: #ee6fe8;   
+}
+div.t7{
+    min-height: 100px;
+    width: 100%;
+    background: #eb7445;
+}

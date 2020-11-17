@@ -1,0 +1,47 @@
+body{
+    padding: 24px;
+}
+p.test{
+    border: 2px solid #ff9111;
+    background: rgb(196, 199, 26);
+    border-radius: 40px/20px;  /*перше значення вертикальний радіус . друге - горизонтальний*/
+    padding: 5px;
+    width: 40%; /*відсотки відносно вікна браузера*/
+    min-height: 500px; /*скільки б не було контенту але висота блоку повиння бути 500px*/
+
+}
+p.test2{
+    border: 2px solid #237c12;
+    background: cyan;
+    border-radius: 40px/20px;  /*перше значення вертикальний радіус . друге - горизонтальний*/
+    padding: 5px;
+    width: 20%; /*відсотки відносно вікна браузера*/
+    height: 100px;
+    overflow: auto;    /*overflow- можна задати різні сначення. scroll- якщо контент не вміщаєть у вказані width i heigth то появляється скрол як вертикальний ,так і 
+    горизонтальний(навіть якщо один з них і не потрібний).  auto-  добавляє лише потрібний скрол. hidden- обрізає все що не помістилося в блок  */
+}
+h2{
+    width: 300px;            /*незважаючи на те що задана ширина елемента - 300px , справжня його ширина - 300+15+5+10* щоб цього уникнути використовують box-sizing як у прикладі нижче*/
+    padding: 15px;
+    border-width: 5px;
+    margin: 10px;
+    border: 1px solid #237c12;
+}
+
+h2.size{    
+    width: 300px;            /*padding-box - вказує браузеру що всі додаткові відступи автоматично враховуються в width */
+    padding: 15px;
+    border-width: 5px;
+    margin: 10px;
+    border: 1px solid #237c12;
+    box-sizing: padding-box;
+}
+
+h2.border{    
+    width: 300px;            /*border-box - вказує браузеру що всі додаткові відступи автоматично враховуються включабчи відступи та ширину бордерів  в width */
+    padding: 15px;
+    border-width: 5px;
+    margin: 10px;
+    border: 1px solid #237c12;
+    box-sizing: border-box;  /* це найкращий спосіб контролювати ширину елементу*/
+}

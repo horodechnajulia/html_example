@@ -1,0 +1,22 @@
+body{
+    padding: 24px;
+}
+h1{
+    font-family: Arial, Helvetica , Verdana; /* шрифти без засічок знизу букв*/
+}
+p {
+    font-size: 1.2em;
+    font-family: Arial;
+    /*text-transform: uppercase;                   uppercase -  всі букви стають заголовними */
+  /*  font-variant: small-caps;                  робить заголовні букви трішки меншими                                */     
+  /* text-decoration: underline;   підкреслення тексту*/  
+  letter-spacing: 1px;    /*відстань між буквами в пікселях  задане значення може бути мінусовим наприклад    -1px*/
+  word-spacing:  10px ;   /*відстань між cловами в пікселях  задане значення може бути мінусовим наприклад    -1px*/
+}
+a{
+    text-decoration: none;    /* забирає підкреслення в посиланні*/    
+}
+
+a:hover{
+    text-decoration: underline;    /* hover -  відковідає за анімацію під час наведення мишки на посилання   underline -  робить підкреслення знизу               */    
+}
